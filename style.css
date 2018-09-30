@@ -1,0 +1,244 @@
+*{
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+
+
+/*.container1
+{
+background-image:url("images/header.svg"); 
+padding: 1px;
+
+}
+*/
+.headings
+{	
+	border: 3px solid black;
+	height:120px;
+	line-height: 125px;
+	font-size: 100px;
+	margin:0 auto;
+	text-align: center;
+	color:white;
+	background-color: #03a9f4;
+}
+/*.photo
+{ 
+	
+	width:26%;
+	height: 600px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+*/
+
+/*
+.text1
+{ text-align: center;
+  font-size: 50px;
+  font: Arial;
+  padding-top: 8px;
+  color:black;
+  background-image:url("images/header.svg");
+  font-weight: bold;
+}*/
+
+.container1{
+	display: flex:
+	flex-wrap:wrap;
+	
+	text-align: center;
+}
+
+.photo{
+	display: inline-block;
+	width:25%;
+	height: 600px;
+	border: 2px solid darkblue;
+	padding: 5px;
+
+}
+
+.text1{
+	display: inline-block;
+	width:20%;
+	font-weight: bold;
+	font: Arial;
+	font-size: 50px;
+	padding: 10px;
+}
+
+#name{
+	color:red;
+	font-size: 60px;
+	display: inline-block;
+	width:400px;
+}
+
+.container2
+{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1450px;
+	margin:0 auto;
+	background-color: white;
+}
+
+.wrap
+{
+	display: inline-block;
+	width:33%;
+	text-align: center;	
+	padding-top: 40px;
+	padding-bottom: 80px;
+	background-color: white;
+}
+.photo2
+{
+	height:400px;
+	padding:40px;
+	background-color: white;
+}
+
+.text2
+{
+	display: inline-block;
+	font-size: 40px;
+	background-color: lightgreen;
+}
+
+.container3
+{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+
+}
+
+.photo3
+{
+height:400px;
+}
+
+#csgo
+{
+width:40%;
+}
+
+#naruto
+{
+	width: 60%;
+}
+
+#db
+{
+	width:60%;
+}
+
+#pubg
+{
+	width:40%;
+}
+
+.break
+{
+	height:30px;
+	background-image:url("images/gap.png"); 
+	background-color: white;
+}
+.break1
+{
+	height:30px;
+	
+	background-color: black;
+}
+
+footer{
+	display: inline-block;
+	width:100%;
+	font-size: 30px;
+	text-align: center;
+	 color:black;
+  background-image:url("images/header.svg");
+  font-weight: bold;
+  height:100px;	
+}
+
+
+@media(min-width:900px) and (max-width:1250px)
+{	.container2
+	{
+		max-width: 1100px;
+	}
+	.wrap
+	{	
+		width:50%;
+	}	
+
+	
+.photo
+{
+	width:40%;
+}
+	#csgo
+	{
+	width:50%;
+	}
+
+	#naruto
+	{
+	width: 50%;
+	}
+
+	#db
+	{
+	width:50%;
+	}
+
+	#pubg
+	{
+	width:50%;
+	}
+}
+
+@media(max-width:900px)
+{
+	.container2
+	{
+		max-width: 530px;
+	}
+	.wrap
+	{	
+	width: 100%;
+	}
+
+.container3
+{
+	width:100%;
+}
+	#csgo
+	{
+	width:100%;
+	}
+
+	#naruto
+	{
+	width: 100%;
+	}
+
+	#db
+	{
+	width:100%;
+	}
+
+	#pubg
+	{
+	width:100%;
+	}
+	.photo
+{
+	width:50%;
+}
+}
